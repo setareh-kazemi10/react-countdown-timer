@@ -1,0 +1,33 @@
+body{
+  background-color: antiquewhite;
+}
+.time-counter {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+.time-counter .time-countdown {
+  position: relative;
+}
+.time-countdown .counter-column {
+  display: inline-block;
+  margin: 0px 0px 5px;
+  font-size: 13px;
+  line-height: 1em;
+  padding: 8px 20px 14px;
+  text-transform: capitalize;
+  text-align: center;
+  border: 2px solid #F28123;
+}
+
+.time-countdown .counter-column .count {
+  display: block;
+  font-size: 30px;
+  line-height: 1.4em;
+  padding: 0px 0px;
+  color: #F28123;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
